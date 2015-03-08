@@ -1,11 +1,20 @@
 
 
+Main install guide: 
+https://blog.hazrulnizam.com/install-zenoss-4-2-4-on-centos-6-4/
 
+Another install guide: 
 https://www.digitalocean.com/community/tutorials/installing-and-configuring-zenoss-on-a-centos-virtual-private-server
 
+CentOS 6.5 image I used: 
+https://virtualboximages.com/CentOS+6.5+x86_64+Desktop+VirtualBox+VDI+Virtual+Computer
 
+Zenoss community: 
 http://wiki.zenoss.org/Talk:Install_Zenoss
 
+http://community.zenoss.org/message/74579
+
+The issue where links were broken in the auto-deploy that I had found online: 
 
   Attempting to install using core-autodeploy silently failed when downloading mysql
 It appears the mysql ftp link in the script no longer accepts annonmous logins. 
@@ -14,9 +23,9 @@ Per http://mirror.anl.gov/pub/mysq...
 * http://mirror.mcs.anl.gov
 * http://mirror.ipv6.anl.gov
 This applies to access via the HTTP, FTP, and rsync protocols.
- • Reply•Share › 
+ â€¢ Replyâ€¢Share â€º 
 Avatar
-d smalls  d smalls • a month ago
+d smalls  d smalls â€¢ a month ago
 Work around was to edit the core-autodeploy script
 
 change:
@@ -27,14 +36,6 @@ mysql_ftp_mirror="http://dev.mysql.com/downloads..."
 
 
 
-https://blog.hazrulnizam.com/install-zenoss-4-2-4-on-centos-6-4/
-
-
-http://community.zenoss.org/message/74579
-
-
-
-https://virtualboximages.com/CentOS+6.5+x86_64+Desktop+VirtualBox+VDI+Virtual+Computer
 
 
 
