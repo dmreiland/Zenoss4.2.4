@@ -4,7 +4,9 @@ Zenoss 4.2.4 Auto-deploy script with resources.
 
 Hello,
 
-I used this script on on the following VM:
+Decide to upload my auto-deploy.sh script file as the ones I've seen around the internet and in other repos contain broken links that will fail silently and without error. 
+
+I used this script on on the following VM to test:
 
 https://virtualboximages.com/CentOS+6.5+x86_64+Desktop+VirtualBox+VDI+Virtual+Computer
 
@@ -12,7 +14,7 @@ One of the tutorials I used was:
 
 https://www.digitalocean.com/community/tutorials/installing-and-configuring-zenoss-on-a-centos-virtual-private-server
 
-These are both bound in Resource List.txt included in this repo. 
+These are both bound in Resource List.txt included in this repo. It includes other links/info I found useful as well. 
 
 TO INSTALL ------------------------------------------------------------------------------------------------------------------
 
