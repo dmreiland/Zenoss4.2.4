@@ -12,7 +12,7 @@ https://virtualboximages.com/CentOS+6.5+x86_64+Desktop+VirtualBox+VDI+Virtual+Co
 
 One of the tutorials I used was:
 
-https://www.digitalocean.com/community/tutorials/installing-and-configuring-zenoss-on-a-centos-virtual-private-server
+https://blog.hazrulnizam.com/install-zenoss-4-2-4-on-centos-6-4/
 
 These are both bound in Resource List.txt included in this repo. It includes other links/info I found useful as well. 
 
