@@ -1,0 +1,41 @@
+
+
+
+https://www.digitalocean.com/community/tutorials/installing-and-configuring-zenoss-on-a-centos-virtual-private-server
+
+
+http://wiki.zenoss.org/Talk:Install_Zenoss
+
+
+  Attempting to install using core-autodeploy silently failed when downloading mysql
+It appears the mysql ftp link in the script no longer accepts annonmous logins. 
+Per http://mirror.anl.gov/pub/mysq... 
+"We regret to inform you that public access to the Argonne software mirror will no longer be available as of February 1, 2015" ... "The following websites will no longer be accessible from the Internet:* http://mirror.anl.gov
+* http://mirror.mcs.anl.gov
+* http://mirror.ipv6.anl.gov
+This applies to access via the HTTP, FTP, and rsync protocols.
+ • Reply•Share › 
+Avatar
+d smalls  d smalls • a month ago
+Work around was to edit the core-autodeploy script
+
+change:
+mysql_ftp_mirror="ftp://mirror.anl.gov/pub/mysql..."
+
+To:
+mysql_ftp_mirror="http://dev.mysql.com/downloads..."
+
+
+
+https://blog.hazrulnizam.com/install-zenoss-4-2-4-on-centos-6-4/
+
+
+http://community.zenoss.org/message/74579
+
+
+
+https://virtualboximages.com/CentOS+6.5+x86_64+Desktop+VirtualBox+VDI+Virtual+Computer
+
+
+
+
